@@ -1,4 +1,4 @@
-alert: PepeTargetMissing
+alert: PepeTargetMissingRemote
 expr: up{juju_application="PepeApp"} == 0
 for: 0m
 labels:
