@@ -1,4 +1,4 @@
-alert: PepeTargetMissingRemote
+alert: glukaTargetMissingRemote
 expr: up{juju_application="testApp"} == 0
 for: 0m
 labels:
