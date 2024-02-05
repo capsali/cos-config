@@ -1,4 +1,4 @@
-name: CheckApache2NrpeAlert
+alert: CheckApache2NrpeAlert
 expr: avg_over_time(command_status{command="check_apache2",juju_unit="keystone/0"}[15m]) > 1 or (absent_over_time(up{juju_unit="keystone/0"}[10m]) == 1)
 labels:
 juju_application: keystone
