@@ -4,4 +4,20 @@ groups:
     - alert: CheckApache2NrpeAlert
       expr: avg_over_time(command_status{command="check_apache2",juju_unit="keystone/0"}[15m]) > 1 or (absent_over_time(up{juju_unit="keystone/0"}[10m]) == 1)
       labels:
+        juju_application: keystone
+        juju_model: default
+        juju_unit: keystone/0
+        nrpe_application: keystone-nrpe
+        nrpe_unit: keystone-nrpe/1
         severity: warning
+      annotations:
+        description: Check provided by nrpe_exporter in model {{ $labels.juju_model }} is failing.
+        Failing check = {{ $labels.command }}
+        Unit = {{ $labels.juju_unit }}
+        Value = {{ $value }}
+        Legend:
+          - StatusOK       = 0
+          - StatusWarning  = 1
+          - StatusCritical = 2
+          - StatusUnknown  = 3
+        summary: Unit {{ $labels.juju_unit }}: {{ $labels.command }} critical.
