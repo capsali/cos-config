@@ -9,12 +9,12 @@ nrpe_unit: keystone-nrpe/1
 severity: warning
 annotations:
 description: Check provided by nrpe_exporter in model {{ $labels.juju_model }} is failing.
-Failing check = {{ $labels.command }}
-Unit = {{ $labels.juju_unit }}
-Value = {{ $value }}
-Legend:
-  - StatusOK       = 0
-  - StatusWarning  = 1
-  - StatusCritical = 2
-  - StatusUnknown  = 3
-summary: Unit {{ $labels.juju_unit }}: {{ $labels.command }} critical.
+  Failing check = {{ $labels.command }}
+  Unit = {{ $labels.juju_unit }}
+  Value = {{ $value }}
+  Legend:
+    - StatusOK       = 0
+    - StatusWarning  = 1
+    - StatusCritical = 2
+    - StatusUnknown  = 3
+  summary: Unit {{ $labels.juju_unit }}: {{ $labels.command }} critical.
