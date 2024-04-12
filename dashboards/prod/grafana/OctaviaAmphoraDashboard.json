@@ -1,14 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_PROMETHEUS",
-      "label": "Prometheus",
-      "description": "Prometheus collecting from one or more Octavia load balancers configured with a PROMETHEUS listener.",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
   "__elements": [],
   "__requires": [
     {
@@ -73,7 +63,7 @@
       }
     ]
   },
-  "description": "A dashboard for OpenStack Octavia load balancer metrics",
+  "description": "A dashboard for Octavia load balancer metrics",
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
@@ -10683,9 +10673,8 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "OpenStack Octavia Amphora Load Balancer",
+  "title": "Octavia Amphora Load Balancer",
   "uid": "4yHpTrB7z",
   "version": 29,
-  "weekStart": "",
-  "gnetId": 15828
+  "weekStart": ""
 }
