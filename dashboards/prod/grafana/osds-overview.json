@@ -56,7 +56,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -162,7 +162,7 @@
       },
       {
          "columns": [ ],
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "This table shows the osd's that are delivering the 10 highest read latencies within the cluster",
          "gridPos": {
             "h": 8,
@@ -252,7 +252,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -358,7 +358,7 @@
       },
       {
          "columns": [ ],
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "This table shows the osd's that are delivering the 10 highest write latencies within the cluster",
          "gridPos": {
             "h": 8,
@@ -443,7 +443,7 @@
       },
       {
          "aliasColors": { },
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "gridPos": {
             "h": 8,
@@ -476,7 +476,7 @@
          "aliasColors": {
             "Non-Encrypted": "#E5AC0E"
          },
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "gridPos": {
             "h": 8,
@@ -514,7 +514,7 @@
       },
       {
          "aliasColors": { },
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "The pie chart shows the various OSD sizes used within the cluster",
          "gridPos": {
             "h": 8,
@@ -604,7 +604,7 @@
          "bars": true,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "fieldConfig": {
             "defaults": {
                "custom": {
@@ -703,7 +703,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
          ],
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "This gauge panel shows onode Hits ratio to help determine if increasing RAM per OSD could help improve the performance of the cluster",
          "format": "percentunit",
          "gauge": {
@@ -800,7 +800,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "Show the read/write workload profile overtime",
          "fieldConfig": {
             "defaults": {
@@ -899,7 +899,7 @@
       },
       {
          "columns": [ ],
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "This table shows the 10 OSDs with the highest number of slow ops",
          "gridPos": {
             "h": 8,
@@ -1009,7 +1009,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 2,
             "includeAll": true,
             "label": "cluster",
@@ -1029,7 +1029,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 0,
             "includeAll": true,
             "label": "job",

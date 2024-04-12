@@ -61,7 +61,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -168,7 +168,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -285,7 +285,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 2,
             "includeAll": true,
             "label": "cluster",
@@ -305,7 +305,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 0,
             "includeAll": true,
             "label": "job",
@@ -325,7 +325,7 @@
          {
             "allValue": null,
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 0,
             "includeAll": true,
             "label": "MDS Server",

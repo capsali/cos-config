@@ -52,7 +52,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
          ],
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "format": "percentunit",
          "gauge": {
             "maxValue": 1,
@@ -133,7 +133,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
          ],
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "Time till pool is full assuming the average fill rate of the last 6 hours",
          "format": "s",
          "gauge": {
@@ -214,7 +214,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -312,7 +312,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -422,7 +422,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -532,7 +532,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$datasource",
+         "datasource": "PBC564C68ED9C0F01",
          "description": "",
          "fieldConfig": {
             "defaults": {
@@ -649,7 +649,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 2,
             "includeAll": true,
             "label": "cluster",
@@ -669,7 +669,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 0,
             "includeAll": true,
             "label": "job",
@@ -689,7 +689,7 @@
          {
             "allValue": null,
             "current": { },
-            "datasource": "$datasource",
+            "datasource": "PBC564C68ED9C0F01",
             "hide": 0,
             "includeAll": false,
             "label": "Pool Name",
